@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/DynamicInfo/DynamicInfo",
+    "pages/warning/warning",
+    "pages/user/user",
+    "pages/projectDetail/projectDetail",
+    "pages/survey/survey",
+    "pages/organizationStructure/organizationStructure",
+    "pages/singleModule/singleModule",
+    "pages/planManagement/planManagement",
+    "pages/schedule/schedule",
+    "pages/wrokbulletin/wrokbulletin",
+    "pages/addEvent/addevent",
+    "pages/addbulletin/addbulletin",
+    "pages/addprojectsingle/addprojectsingle",
+    "pages/addprojectbase/addprojectbase",
+    "pages/addprojectnode/addprojectnode",
+    "pages/addprojectblock/addprojectblock",
+    "pages/addproject/addproject"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#018ED6",
+    "navigationBarTitleText": "工程项目",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#018ED6",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "custom": false,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home-o.png"
+      },
+      {
+        "pagePath": "pages/DynamicInfo/DynamicInfo",
+        "text": "动态信息",
+        "iconPath": "icons/bigEvent.png",
+        "selectedIconPath": "icons/bigEvent-o.png"
+      },
+      {
+        "pagePath": "pages/warning/warning",
+        "text": "工期预警",
+        "iconPath": "icons/warning.png",
+        "selectedIconPath": "icons/warning-o.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "icons/my.png",
+        "selectedIconPath": "icons/my-o.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "plugins": {
+    "calender": {
+      "version": "1.0.1",
+      "provider": "wx42b95b4509175304"
+    }
+  }
+}

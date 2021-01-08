@@ -1,0 +1,112 @@
+index:主页
+	onBuilding:在建
+	prepare:准备中
+	complet:已完成
+	projectName:项目名称
+	projectIcon:项目头像
+
+DynamicInfo:动态信息
+	bigEvent:大事件
+	wrokBulletin:简报
+	addEvent:添加事件
+	search:搜索
+	projectIcon:项目头像
+	projectName:项目名称 
+	eventMsg:事件信息
+	eventPic:事件图片
+	eventTime:事件时间
+
+waring:工期预警
+	curYear:年
+	curMonth:月
+	curDay:日
+	totalNode:总节点
+	alreadyDoneNode:当前完成
+	onTimeNode:按时完成
+	undoneNode:未完成
+	todayMemo:本日事件
+	projectName:项目名称
+
+
+user:个人中心
+	userIcon:用户头像
+	userName:用户姓名
+	userId:用户工号
+	userTel:用户联系方式
+	userDepartment:用户部门
+	userPosition:用户职位
+	projectList:项目列表
+	addProject:添加项目
+
+projectDetail:项目明细
+	survey:项目概况
+		projectName:项目名称
+		baseInfo:基础信息
+			projectFormats:所属业态
+			conCommDate:合同开工日期
+			conCompDate:合同竣工日期
+			awarDate:中标通知书日期
+			commDate:开工令日期
+			barea:建筑面积
+			carea:占地面积
+			amount:合同额
+			duration:合同工期
+		conUnit:建设单位
+		supUnit:监理单位
+		advUnit:咨询单位
+		surUnit:勘察单位
+		desUnit:设计单位
+		contact:联系人
+		tel:联系电话
+
+	organizationStructure:组织架构
+		projectName:项目名称
+		projectManager:项目经理
+		divisionManager:部门经理
+		commercialDept:商务部
+		partyDept:党群部
+		productionDept:生产部
+		securityDept:安全部
+		technologyDept:技术部
+		subordinate:下属人员
+
+	singleModule:单体模块
+		projectName:项目名称
+		segment:标段
+		block:地块
+		single:单体
+		building:楼栋
+		floor:楼层
+		buildingOwner:楼层负责人
+
+	planManagement:计划管理
+		projectName:项目名称
+		segment:标段
+		block:地块
+		single:单体
+		building:楼栋
+		nodeMsg:节点内容
+		deadline:要求时间
+		acturalTime:实际完成时间
+		baseInfo:基础信息
+			pFormats:所属业态
+			conCommDate:合同开工日期
+			conComp:合同竣工日期
+			awarDate:中标通知书日期
+			commDate:开工令日期
+			barea:建筑面积
+			carea:占地面积
+			amount:合同额
+			duration:合同工期
+		prepare:施工准备
+		onBuilding:在建施工
+		acceptance:专项验收
+
+	schedule:形象进度
+		projectName:项目名称
+		segment:标段
+		block:地块
+		single:单体
+		building:楼栋
+		floor:楼层
+		schedule:进度
