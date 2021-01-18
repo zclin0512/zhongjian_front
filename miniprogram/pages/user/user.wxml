@@ -1,2 +1,60 @@
-<!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<view class="user_info_wrap">
+    <view wx:if="{{userInfo.avatarUrl}}" class="user_img_wrap">
+        <image class="user_icon" src="{{userInfo.avatarUrl}}"></image>
+        <view class='baseInfo'>
+            <view class="row">
+                <view class='icon'>
+                    <image mode="scaleToFull" src="/icons/name.png" bindtap="turnToSurver" id="logo"></image>
+                </view>
+                <view class="title">用户姓名 :</view>
+                <view class='value'>{{userInfo.nickName}}</view>
+            </view>
+            <view class="row">
+                <view class='icon'>
+                    <image mode="scaleToFull" src="/icons/empNum.png" bindtap="turnToSurver" id="logo"></image>
+                </view>
+                <view class="title">员工编号 :</view>
+                <view class='value'>{{usermes.wid}}</view>
+            </view>
+            <view class="row">
+                <view class='icon'>
+                    <image mode="scaleToFull" src="/icons/phone.png" bindtap="turnToSurver" id="logo"></image>
+                </view>
+                <view class="title">联系方式 :</view>
+                <view class='value'>{{usermes.tel}}</view>
+            </view>
+            <view class="row">
+                <view class='icon'>
+                    <image mode="scaleToFull" src="/icons/part.png" bindtap="turnToSurver" id="logo"></image>
+                </view>
+                <view class="title">所属部门 :</view>
+                <view class='value'>{{usermes.department}}</view>
+            </view>
+            <view class="row">
+                <view class='icon'>
+                    <image mode="scaleToFull" src="/icons/job.png" bindtap="turnToSurver" id="logo"></image>
+                </view>
+                <view class="title">担任职位 :</view>
+                <view class='value'>{{usermes.position}}</view>
+            </view>
+        </view>
+        <view class='projectInfo' id='project'>
+            <view id='title'>关 联 项 目</view>
+            <view class="row prow" wx:for="{{projectlist}}" wx:key="this">
+                <view class='fimg'>
+                    <image mode="scaleToFull" src="/icons/redirect.png" bindtap="turnToSurver" id="logo"></image>
+                </view>
+                <view class="project" bindtap="gotoproject">{{item}}</view>
+            </view>
+        </view>
+        <view class='projectInfo' id='project'>
+            <view id='title' bindtap="edit" data-status="{{status}}">{{isEdit}}</view>
+        </view>
+    </view>
+    <view wx:else class="user_btn">
+        <image class="fake_icon" src="/icons/my.png"></image>
+        <button class='login' type="primary" plain open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">
+            点击登录
+        </button>
+    </view>
+</view>

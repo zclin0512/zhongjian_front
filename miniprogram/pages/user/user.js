@@ -1,10 +1,21 @@
 // pages/user/user.js
+import { request } from "../../request/request"
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    userInfo:"",
+  },
+  // 点击登录，获取当前用户信息
+  handleGetUserInfo(e){
+    console.log(e)
+    var userInfo = e.detail.userInfo
+    console.log(userInfo)
+    this.setData({
+      userInfo:userInfo
+    })
 
   },
 

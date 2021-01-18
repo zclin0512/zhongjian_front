@@ -1,2 +1,6 @@
 <!--pages/schedule/schedule.wxml-->
 <text>pages/schedule/schedule.wxml</text>
+
+
+<!-- 自定义tabbar -->
+<mp-tabbar style="position:fixed;bottom:0;width:100%;left:0;right:0;" bindchange="tabChange"></mp-tabbar>

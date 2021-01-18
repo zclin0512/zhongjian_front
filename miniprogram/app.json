@@ -1,23 +1,20 @@
 {
   "pages": [
+    "pages/wrokbulletin/wrokbulletin",
+    "pages/schedule/schedule",
+    "pages/planManagement/planManagement",
+    "pages/singleModule/singleModule",
+    "pages/organizationStructure/organizationStructure",
+    "pages/survey/survey",
+    "pages/projectDetail/projectDetail",
+    "pages/addbulletin/addbulletin",
+    "pages/user/user",
     "pages/index/index",
     "pages/DynamicInfo/DynamicInfo",
     "pages/warning/warning",
-    "pages/user/user",
-    "pages/projectDetail/projectDetail",
-    "pages/survey/survey",
-    "pages/organizationStructure/organizationStructure",
-    "pages/singleModule/singleModule",
-    "pages/planManagement/planManagement",
-    "pages/schedule/schedule",
-    "pages/wrokbulletin/wrokbulletin",
+
     "pages/addEvent/addevent",
-    "pages/addbulletin/addbulletin",
-    "pages/addprojectsingle/addprojectsingle",
-    "pages/addprojectbase/addprojectbase",
-    "pages/addprojectnode/addprojectnode",
-    "pages/addprojectblock/addprojectblock",
-    "pages/addproject/addproject"
+    "pages/addprojectbase/addprojectbase"
   ],
   "window": {
     "backgroundTextStyle": "light",

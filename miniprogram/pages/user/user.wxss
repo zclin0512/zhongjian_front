@@ -1,1 +1,106 @@
-/* pages/user/user.wxss */
+page {
+  background: linear-gradient(#018ED6, #00aae5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.user_info_wrap {
+  margin: 30rpx 0 ;
+}
+.user_info_wrap image {
+  margin: 0 35% 40rpx;
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 50%;
+  box-shadow: 2px -2px 5px #000;
+}
+.baseInfo {
+  background-color: white;
+  width: 94%;
+  height: 40%;
+  margin-left: 3%!important;
+  box-sizing: border-box;
+  border-top: 1rpx solid black;
+  box-shadow: 2px -2px 5px #000;
+  border-radius: 30rpx;
+  padding: 40rpx 10rpx;
+  font: 30rpx Microsoft YaHei;
+}
+.projectInfo {
+  background-color: white;
+  width: 94%;
+  height: 40%;
+  margin-left: 3%!important;
+  box-sizing: border-box;
+  border-top: 1rpx solid black;
+  box-shadow: 2px -2px 5px #000;
+  border-radius: 30rpx;
+  padding: 40rpx 0;
+  font: 30rpx Microsoft YaHei;
+}
+.row {
+  border-bottom: 1rpx dotted rgba(31, 26, 26, 0.192);
+  padding: 10rpx 0;
+  display: flex;
+  line-height: 60rpx;
+}
+.icon {
+  width: 60rpx;
+  height: 60rpx;
+  display: inline-block;
+}
+.icon image {
+  margin-left: 100rpx;
+  width: 100%;
+  height: 100%;
+  box-shadow: none !important;
+}
+.title {
+  margin-left: 130rpx;
+  font-weight: 800;
+  display: inline-block;
+}
+.value {
+  display: inline-block;
+  margin-left: 20rpx;
+  color: rgba(31, 26, 26, 0.548);
+  font-weight: 400;
+}
+#project {
+  text-align: center;
+  margin-top: 2% !important;
+}
+#title {
+  font: 40rpx Microsoft YaHei;
+  font-weight: 600;
+}
+
+.prow {
+  display: flex;
+}
+.login {
+  background-color: white!important;
+  color: #018ED6 !important;
+}
+.fake_icon {
+  background-color: white;
+  margin-top: 40%!important;
+  margin-bottom: 20%!important;
+}
+.fimg {
+  width: 60rpx!important;
+  height: 60rpx!important;
+  display: inline-block;
+  margin-right: 30rpx;
+}
+.fimg image {
+  width: 60rpx!important;
+  height: 60rpx!important;
+  border-radius: 0!important;
+  box-shadow: none !important;
+}
+.project {
+  text-align:left;
+  word-wrap:break-word;  
+  word-break:break-all;  
+}
